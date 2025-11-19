@@ -1,12 +1,16 @@
-$primary: {{ site.data.style.primary_color }};
-$background: {{ site.data.style.background_color }};
-$header-color: {{ site.data.style.text.header }};
+/* assets/css/_layout.scss */
 
 body {
-  background: $background;
-  color: $primary;
+  background: {{ site.data.style.background_color }};
+  color: {{ site.data.style.text.body }};
+  padding: {{ site.data.style.spacing.base }};
 }
 
 h1, h2, h3 {
-  color: $header-color;
+  color: {{ site.data.style.text.header }};
+}
+
+button {
+  background: {{ site.data.style.secondary_color }};
+  padding: {{ site.data.style.spacing.large }};
 }
