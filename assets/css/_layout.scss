@@ -1,0 +1,12 @@
+$primary: {{ site.data.style.primary_color }};
+$background: {{ site.data.style.background_color }};
+$header-color: {{ site.data.style.text.header }};
+
+body {
+  background: $background;
+  color: $primary;
+}
+
+h1, h2, h3 {
+  color: $header-color;
+}

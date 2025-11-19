@@ -1,4 +1,11 @@
-colors:
-  primary: "#FF0000"
-fonts:
-  header_size: "3rem"
+primary_color: "#c33"
+secondary_color: "#4a90e2"
+background_color: "#fafafa"
+
+text:
+  body: "#222"
+  header: "#111"
+
+spacing:
+  base: 1rem
+  large: 2rem

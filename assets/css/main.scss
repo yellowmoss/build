@@ -2,6 +2,6 @@
 ---
 @import "layout";
 
-body {
-  background: #f0f;
+h1 {
+  color: {{ site.data.style.header_color }};
 }
