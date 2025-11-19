@@ -7,5 +7,5 @@ text:
   header: "#111"
 
 spacing:
-  base: 1rem
-  large: 2rem
+  base: "1rem"
+  large: "2rem"
